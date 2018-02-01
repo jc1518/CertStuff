@@ -29,3 +29,4 @@ optional arguments:
 ```
 
 ## Sample output
+![report](./sample.png)
