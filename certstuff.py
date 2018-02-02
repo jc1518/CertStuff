@@ -27,7 +27,7 @@ import webbrowser
 
 def list_regions():
     """Get all AWS regions"""
-    ec2_client = boto3.client('ec2')
+    ec2_client = boto3.client('ec2', region_name='us-east-1')
     response = ec2_client.describe_regions()
     return response['Regions']
 
